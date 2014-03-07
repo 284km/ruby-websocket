@@ -15,7 +15,7 @@ module ChatDemo
 
 #       uri = URI.parse(ENV["REDISCLOUD_URL"])
 #       @redis = Redis.new(host: uri.host, port: uri.port, password: uri.password)
-      @redis = Redis.new(host: "localhost", port: 6379)
+#       @redis = Redis.new(host: "localhost", port: 6379)
 
 #       Thread.new do
 #         # redis_sub = Redis.new(host: uri.host, port: uri.port, password: uri.password)
