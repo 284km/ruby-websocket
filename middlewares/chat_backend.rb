@@ -1,6 +1,6 @@
 require 'faye/websocket'
 require 'thread'
-require 'redis'
+# require 'redis'
 require 'json'
 require 'erb'
 
