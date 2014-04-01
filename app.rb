@@ -2,9 +2,14 @@ require 'sinatra/base'
 
 module ChatDemo
   class App < Sinatra::Base
+    get "/chat" do
+      erb :"index.html"
+    end
+
     get "/" do
       erb :"index.html"
     end
+
 
     get "/assets/js/application.js" do
       content_type :js
